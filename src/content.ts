@@ -22,25 +22,6 @@ export function whatsappHref(message: string) {
   return `https://wa.me/${clinic.whatsapp}?text=${encodeURIComponent(message)}`
 }
 
-export const trajectory = [
-  {
-    year: 'Universidad',
-    text: 'Universidad La Concordia, campus Fórum Internacional, en Aguascalientes. Graduada con mención honorífica.',
-  },
-  {
-    year: '2018–2019',
-    text: 'Servicio social en el Hospital General de Zona No. 2 del IMSS.',
-  },
-  {
-    year: '2020–2021',
-    text: 'Atención nutricional en el Bachillerato General Militarizado “1er Escuadrón Lanceros de Aguascalientes”.',
-  },
-  {
-    year: 'Desde 2020',
-    text: 'Consulta privada, presencial y por videollamada.',
-  },
-]
-
 export const focus = [
   {
     title: 'Enfermedades metabólicas',
@@ -187,17 +168,6 @@ export const reviews = [
   },
 ]
 
-export const reasons = [
-  'Control de peso',
-  'Diabetes o resistencia a la insulina',
-  'Colesterol o triglicéridos',
-  'Salud digestiva',
-  'Salud hormonal',
-  'Nutrición infantil',
-  'Alimentación vegetariana',
-  'Otro motivo',
-]
-
 export const faqs = [
   {
     q: '¿A quién atiende?',
@@ -213,6 +183,6 @@ export const faqs = [
   },
   {
     q: '¿El precio puede cambiar?',
-    a: 'Los montos publicados inician en $400 MXN para pacientes sin aseguradora. Según el caso, el costo puede ser distinto: se confirma al agendar.',
+    a: 'Los montos publicados inician en $400 MXN para pacientes sin aseguradora. Según el caso, el costo puede ser distinto: se confirma por WhatsApp.',
   },
 ]

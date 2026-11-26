@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { services, steps } from '../content'
+import { services, steps, whatsappHref } from '../content'
 import { useReveal } from '../useReveal'
 
 export function Services() {
@@ -46,9 +46,14 @@ export function Services() {
             <h3>{service.name}</h3>
             <p className="price">{service.price}</p>
             <p>{service.summary}</p>
-            <p className="fine">MXN. El monto puede ajustarse según el caso y se confirma al agendar.</p>
-            <a className="btn btn-light" href="#agenda">
-              Agendar esta consulta
+            <p className="fine">MXN. El monto puede ajustarse según el caso y se confirma por WhatsApp.</p>
+            <a
+              className="btn btn-light"
+              href={whatsappHref('Hola, quiero informes de una consulta.')}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp
             </a>
           </article>
         </div>

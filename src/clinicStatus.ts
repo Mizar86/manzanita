@@ -82,5 +82,5 @@ export function getClinicStatus(date = new Date()): ClinicStatus {
     }
   }
 
-  return { open: false, day, detail: 'Consulta el horario al agendar' }
+  return { open: false, day, detail: 'Confirma el horario por WhatsApp' }
 }

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { whatsappHref } from '../content'
 import { Wordmark } from './Logo'
 
 const LINKS = [
@@ -84,8 +85,13 @@ export function Header() {
           ))}
         </nav>
         <div className="tools">
-          <a className="btn btn-primary" href="#agenda" onClick={() => setOpen(false)}>
-            Agendar
+          <a
+            className="btn btn-primary"
+            href={whatsappHref('Hola, quiero informes de una consulta.')}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            WhatsApp
           </a>
           <button
             type="button"

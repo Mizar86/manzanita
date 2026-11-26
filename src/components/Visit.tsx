@@ -42,7 +42,7 @@ export function Visit() {
                 <span>Cerrado</span>
               </li>
             </ul>
-            <p className="fine">Horario de su ficha pública. Confírmalo al agendar.</p>
+            <p className="fine">Horario de su ficha pública. Confírmalo por WhatsApp.</p>
             <div className="contact-links">
               <a href={`tel:${clinic.phoneTel}`}>{clinic.phoneDisplay}</a>
               <a

@@ -30,12 +30,9 @@ export function Hero() {
             presupuesto.
           </p>
           <div className="hero-actions">
-            <a className="btn btn-primary" href="#agenda">
-              Agendar cita
-            </a>
             <a
-              className="btn btn-line"
-              href={whatsappHref('Hola, quiero agendar una consulta.')}
+              className="btn btn-primary"
+              href={whatsappHref('Hola, quiero informes de una consulta.')}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -83,10 +80,6 @@ export function Stats() {
         <div className="s-yellow">
           <strong>161</strong>
           <span>Opiniones de pacientes</span>
-        </div>
-        <div className="s-cyan">
-          <strong>2020</strong>
-          <span>Inicio de la consulta privada</span>
         </div>
         <div className="s-lime">
           <strong>$400</strong>
